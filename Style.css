@@ -1,0 +1,180 @@
+/* تنسيق عام */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* الهيدر */
+header {
+  background-color: #f4a261;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+/* قسم الترحيب */
+.hero {
+  background-color: #f1faee;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #264653;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #2a9d8f;
+}
+
+.hero .btn {
+  background-color: #264653;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* تنسيق المنتجات */
+.products-section {
+  padding: 30px 15px;
+  background-color: #ffffff;
+}
+
+.products-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #264653;
+}
+
+.product {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  margin: 15px;
+  padding: 20px;
+  background-color: #f1faee;
+  border-radius: 10px;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.product h3 {
+  font-size: 1.2rem;
+  color: #264653;
+}
+
+.product p {
+  color: #2a9d8f;
+  font-size: 1rem;
+}
+
+/* تنسيق قسم الاتصال */
+.contact-section {
+  padding: 50px 15px;
+  background-color: #ffffff;
+}
+
+.contact-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #264653;
+}
+
+.contact-section form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #f1faee;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-section .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-section label {
+  display: block;
+  font-size: 1rem;
+  color: #264653;
+}
+
+.contact-section input, .contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-section button {
+  background-color: #264653;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* إضافة أيقونات الواتساب والسناب */
+.contact-icons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-icon {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 10px;
+  color: #264653;
+  text-decoration: none;
+}
+
+.contact-icon i {
+  margin-left: 8px;
+}
+
+.contact-icon:hover {
+  color: #2a9d8f;
+}
+
+/* تنسيق الفوتر */
+footer {
+  background-color: #f4a261;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
